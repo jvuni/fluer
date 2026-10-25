@@ -3,37 +3,33 @@
 }
 body {
   margin: 0;
-  background: #F7F3E8;
-  color: #262626;
-  font-family: "Source Sans 3", system-ui, sans-serif;
+  background: #F5F3EF;
+  color: #1E1E1E;
+  font-family: "Open Sans", system-ui, sans-serif;
   line-height: 1.5;
 }
 h1, h2 {
-  font-family: "Source Serif 4", Georgia, serif;
+  font-family: "Roboto Slab", Georgia, serif;
 }
 
 header {
-  background: #1F6F3E;
-  color: #F7F3E8;
-}
-header img {
-  width: 110px;
-  height: auto;
+  background: #2F4858;
+  color: #F5F3EF;
 }
 nav {
-  background: #262626;
+  background: #1E1E1E;
 }
-nav a {            
-  color: #F7F3E8;
+nav a {
+  color: #F5F3EF;
 }
 a {
-  color: #1F6F3E;
+  color: #2F4858;
 }
 header, main, aside, footer {
   padding: 1rem;
 }
 footer {
-  border-top: 3px solid #D8A22B;
+  border-top: 3px solid #E07A1F;
 }
 
 img {
@@ -43,32 +39,32 @@ img {
 th, td {
   padding: 0.4rem 0.75rem;
   text-align: left;
-  border-bottom: 1px solid #c9c2ad;
+  border-bottom: 1px solid #2F4858;
 }
 thead th {
-  background: #1F6F3E;
-  color: #F7F3E8;
+  background: #2F4858;
+  color: #F5F3EF;
 }
 label {
   display: block;
   margin-top: 0.75rem;
 }
-input, select, button {
+input, select, textarea, button {
   font: inherit;
   padding: 0.4rem 0.6rem;
   max-width: 100%;
 }
 button {
-  background: #1F6F3E;
-  color: #F7F3E8;
+  background: #2F4858;
+  color: #F5F3EF;
   border: 0;
   padding: 0.6rem 1.2rem;
   margin-top: 1rem;
 }
 
 body {
-  display: grid;                                     
-  grid-template-columns: minmax(0, 1fr) 18rem;       
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 18rem;
   grid-template-areas:
     "header header"
     "nav    nav"
@@ -78,7 +74,7 @@ body {
 
 header { grid-area: header; }
 nav    { grid-area: nav; }
-main   { grid-area: main; }                          
+main   { grid-area: main; }
 aside  { grid-area: aside; }
 footer { grid-area: footer; }
 
@@ -95,18 +91,18 @@ nav ul {
   padding: 0.75rem 1rem;
 }
 
-.route-cards {
+.cards {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   list-style: none;
   padding: 0;
 }
-.route-cards li {
+.cards li {
   flex: 1 1 12rem;
   padding: 1rem;
-  background: #ffffff;
-  border-top: 4px solid #D8A22B;
+  border: 1px solid #2F4858;
+  border-top: 4px solid #E07A1F;
 }
 
 th, td {
