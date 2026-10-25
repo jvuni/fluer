@@ -1,3 +1,7 @@
+/* House style — main #2F4858  ground #F5F3EF  ink #1E1E1E  accent #E07A1F
+   headings: Roboto Slab, serif    body: Open Sans, sans-serif */
+
+
 * {
   box-sizing: border-box;
 }
@@ -112,9 +116,9 @@ th, td {
   overflow-x: auto;
 }
 
-/*index (cards), materials (table), register and contact (forms)*/
-
-/* index: the three cards */
+/* ---------- Pages: Johannes Vadera ----------
+   index (cards), materials (table), register and contact (forms) */
+   
 .cards h3 {
   font-family: "Roboto Slab", Georgia, serif;
   color: #2F4858;
