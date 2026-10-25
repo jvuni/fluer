@@ -112,6 +112,51 @@ th, td {
   overflow-x: auto;
 }
 
+/*index (cards), materials (table), register and contact (forms)*/
+
+/* index: the three cards */
+.cards h3 {
+  font-family: "Roboto Slab", Georgia, serif;
+  color: #2F4858;
+  margin-top: 0;
+}
+.cards p {
+  margin-bottom: 0;
+}
+
+/* materials: table */
+table {
+  width: 100%;
+}
+caption {
+  text-align: left;
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+
+/* register and contact: forms */
+fieldset {
+  border: 1px solid #2F4858;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem 1rem;
+}
+legend {
+  font-family: "Roboto Slab", Georgia, serif;
+  font-weight: bold;
+  color: #2F4858;
+  padding: 0 0.25rem;
+}
+input, select, textarea {
+  border: 1px solid #2F4858;
+  background: #F5F3EF;
+  color: #1E1E1E;
+}
+textarea {
+  width: 100%;
+}
+
+
+
 @media (max-width: 700px) {
   body {
     grid-template-columns: minmax(0, 1fr);
